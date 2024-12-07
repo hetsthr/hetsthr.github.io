@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #e3b8d5;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #e3b8d5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .rsvp-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .rsvp-form input, .rsvp-form textarea, .rsvp-form button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .rsvp-form button {
+            background-color: #e3b8d5;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Het & Charmi's Wedding</h1>
+    <p>Jan 26, 2025</p>
+</header>
+
+<main>
+    <!-- Wedding Details Section -->
+    <section id="details">
+        <h2>Wedding Details</h2>
+        <h3>25th January</h3>
+        <ul>
+            <li><strong>9:30 AM:</strong> Grahshanti</li>
+            <li><strong>12:00 PM:</strong> Lunch</li>
+            <li><strong>7:00 PM:</strong> Dinner followed by Sangeet</li>
+        </ul>
+        <h3>26th January</h3>
+        <ul>
+            <li><strong>11:00 AM:</strong> Haldi</li>
+            <li><strong>4:00 PM:</strong> Jaan Prasthan</li>
+            <li><strong>7:00 PM:</strong> Dinner</li>
+        </ul>
+        <h3>Directions</h3>
+        <p><a href="https://www.google.com/maps" target="_blank">View on Google Maps</a></p>
+        <p>Parking available.</p>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form class="rsvp-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="dietary" placeholder="Any special requests?" rows="3"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Coming soon: Our engagement photos and memories!</p>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs">
+        <h2>FAQs</h2>
+        <p><strong>What should I wear?</strong> Formal attire is requested for both the ceremony and reception.</p>
+        <p><strong>Are kids welcome?</strong> Yes! We love children and can't wait to see them there.</p>
+        <p><strong>How can I contact you?</strong> Please email us at <a href="mailto:annaandjakewedding@example.com">annaandjakewedding@example.com</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Het & Charmi's Wedding</p>
+</footer>
+
+</body>
+</html>
