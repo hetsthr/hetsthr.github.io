@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Het & Charmi</title>
     <style>
-        body {
+        body::before {
+            content: ""; /* Create a pseudo-element */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('path/to/your/image.jpg'); 
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7; /* Adjust opacity here */
+        }
+        /*body {
             font-family: sans-serif;
             margin: 0;
             display: flex;
@@ -13,11 +25,10 @@
             align-items: center;
             min-height: 100vh;
             background-color: rgba(0, 0, 0, 1); /* Add a dark overlay */
-            background-image: url('bg_img.jpeg'); 
+            /*background-image: url('bg_img.jpeg'); 
             background-size: cover;
-            opacity: 0.6;
             background-position: center;
-        }
+        }*/
 
         .container {
             text-align: center;
